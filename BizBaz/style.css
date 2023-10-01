@@ -1,0 +1,584 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    scroll-snap-type: proximity;
+   
+}
+@font-face {
+    font-family: OffroadFont;
+    src: url(font/If.ttf);
+}
+@font-face {
+    font-family: BizzyFont ;
+    src: url(font/JoyfulJuliana.ttf);
+    font-size: xx-large;
+}
+#hero {
+    width: 100%;
+    min-height: 65vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.641),rgba(0, 0, 0, 0.393)), url('./images/kids.jpg')no-repeat center / cover;
+    color: white;
+}
+#about {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(255, 252, 252, 0.136);
+    
+    
+}
+footer{
+    background-color: aliceblue;
+    padding: 1rem;
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+}
+.footer-col ul{
+    list-style: none;
+
+}
+.footer-col li{
+    padding-top: 10px ;
+}
+.footer-col li a{
+    color: black;
+    text-decoration: none;
+}
+.footer-col li a:hover{
+    color: orange;
+}
+.footer .container{
+    width: 100%;
+}
+
+.row{
+    display: grid;
+    justify-content:space-evenly;
+    padding: 40px 100px;
+    text-align: center;
+
+}
+#contact{
+    font-family: BizzyFont;
+    padding: 20px;
+    text-align: left;
+}
+.nav-list{
+    width: 100%;
+    background-color:aliceblue;
+    box-shadow:0px 0px 10px  color(grey);
+    margin: 0%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-weight: bolder;
+    overflow-x: auto;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 3rem;
+    text-decoration:none;
+    cursor: pointer;
+}
+.nav-item a{
+    text-decoration:none;
+    color: orange;
+}
+.nav-item:first-child {
+    margin-left: 2rem;
+}
+.nav-item a:hover {
+    color: black;
+    transition: all 200ms ease-in;
+    text-decoration: none;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container{
+    width:100%;
+    height:100%;
+    max-width: 1200px;
+    margin: 0% auto;
+    padding-top: 20px;
+    margin-top: 20px;
+    align-content: center;
+    text-align: center;
+
+}
+.bizzy {
+    font-family: BizzyFont;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+
+    padding-top: 50px;
+    background-color: aliceblue;
+    
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    height:400px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration:none;
+}
+
+.card:hover{
+    cursor: pointer;
+    animation: both;
+}
+#Christmas{
+    background-image:url(images/christmas-trees-5778006_1280.jpeg);
+    background-color: black;
+}
+#Summer{
+    background-image: url(images/summer-7200676_640.png);
+
+}
+#Easter {
+    background-image: url(images/rabbits-4883006_640.jpg);
+}
+#Easter:hover{
+    background-color: rgba(16, 145, 134, 0.524);
+    opacity: 0.5;
+}
+#Christmas:hover{
+    background-color: rgba(16, 145, 134, 0.524);
+    opacity: 0.5;
+}
+#Offroad:hover{
+    background-color: rgba(16, 145, 134, 0.524);
+    opacity: 0.5;
+}
+#Summer:hover{
+    background-color: rgba(16, 145, 134, 0.524);
+    opacity: 0.5;
+}
+#Offroad {
+    background-image: url(images/23665475.jpg);
+}
+.breaker{
+    text-align: center;
+    width:100%;
+    padding-top: 50px;
+    font-family: BizzyFont;
+    font-size: 40px;
+    text-decoration: underline;
+}
+#card-3{
+    font-family: BizzyFont;
+    background-color:#ffff;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+}
+.card a{
+    color: orange;
+}
+.card:hover a{
+    color: black;
+    text-decoration: none;
+}
+.foot-h4{
+    margin-top: 25x;
+    position: relative;
+    font-family:"san-serif";
+    font-size: 22px;
+}
+.contact-footer{
+    text-align: left;
+}
+.contact-footer a{
+    text-decoration: none;
+}
+#hidden{
+    visibility: hidden;
+}
+ul li ul.dropdown li {
+    display: block;
+    width: 100%;
+    align-items: left;
+}
+ul li ul.dropdown {
+    width:180px;
+    background: aliceblue;
+    position: absolute;
+    display: none;
+    z-index: 999;
+    margin-right: 40px;
+
+}
+ul li:hover ul.dropdown{
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .gallery {
+    width:100%;
+    flex-direction: column;
+  }
+  .footer{
+    min-width: 420px;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .Easter-3{
+    margin: 0%;
+    padding: 0%;
+  }
+  .gallery-div{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overscroll-behavior-inline:contain ;
+    }
+ .gallery-div img{
+    min-width: 200px;
+    padding: 3px;
+    background: aliceblue;
+    margin: 2rem;
+    }
+ .gallery{
+    padding: 1px;
+ }
+}
+@media screen and (max-width: 1300px){
+    .text-box{
+        margin-top: 1rem;
+        width: 100%;
+        padding-left: 0;
+      }
+      #imgeast{
+        padding: 0%;
+        width: 100%;
+    
+      }
+      .container-1{
+        flex-direction: column;
+        padding: 0;
+      }
+
+}
+@media screen and (max-width:590px){
+    .navbar{
+        max-width: 400px;
+    }
+    .nav-list{
+        background-color:aliceblue;
+        box-shadow:0px 0px 10px  color(grey);
+        margin: 0%;
+        padding: 1rem 0;
+        display: flex;
+        grid-auto-flow: row;
+        justify-content: space-evenly;
+        text-transform: uppercase;
+        font-weight: bolder;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-left:250px ;
+    }
+}
+@media screen and (max-width:500px){
+    .Offroad-div{
+        width: 100%;
+        font-family: OffroadFont;
+        min-width: 300px
+    }
+    .Offroad-div h2{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        font-size: 50px;
+        padding-right: 20px;
+        float: left;
+    }
+    .Offroad-div h3{
+
+    }
+    
+}
+/*Christmas 2022*/
+.Easter-3{
+    margin: auto;
+    background-color:fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-1{
+    padding: 1rem;
+    display: flex;
+    padding: rem;
+    width: 75%;
+    border-top: solid 0.5mm;
+    border-bottom: solid 0.5mm;
+
+    
+
+}
+#imgeast{
+    max-width: 620px;
+    float: left;
+    border-radius: 10px;
+}
+.text-box{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color:black;
+    background-color: aliceblue;
+    margin-left:0px;
+}
+.body-easter{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+.gallery{
+    width: 100%;
+    min-height: 50vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 0.5mm;
+     
+}
+.gallery-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    
+}
+.gallery-div img{
+    inline-size: 100%;
+    max-height: 150px;
+    max-width: 260px;
+    border-radius: 10px;
+}
+.gallery h4{
+    font-family: BizzyFont;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+.about-us{
+    text-align: center;
+}
+.container-5{
+    width:90%;
+    height:100%;
+    max-width: 1200px;
+    margin: 0% auto;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    border-top: solid 0.2mm;
+    padding-top: 20px;
+}
+.Offroad{
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(offroadimages/LRM_EXPORT_1462291329973656_20190812_162739606.jpeg);
+    color: white;
+    height: auto;
+}
+.Offroad-div{
+    width: 100%;
+    font-family: OffroadFont;
+    padding:5rem;
+    min-width: 300px
+}
+.Offroad-div h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 70px;
+}
+.Offroad-div h3{
+    text-align:center;
+    font-size: 40px;
+    padding-top: 20px;
+    color: red;
+}
+/* offroad nav bar color change*/
+.nav-list-off{
+    background-color:rgb(0, 0, 0);
+    box-shadow:0px 0px 10px  color(grey);
+    margin: 0%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    overflow-x: auto;
+
+   
+
+}
+.nav-item-off {
+    list-style: none;
+    margin-right: 3rem;
+    text-decoration:none;
+    cursor: pointer;
+}
+.nav-item-off a{
+    text-decoration:none;
+    color: orange;
+}
+.nav-item-off:first-child {
+    margin-left: 2rem;
+}
+.nav-item-off a:hover {
+    color: white;
+    transition: all 200ms ease-in;
+    text-decoration: none;
+}
+ul li ul.dropdown-off {
+    width:180px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    display: none;
+    z-index: 999;
+    margin-right: 40px;
+
+}
+ul li:hover ul.dropdown-off{
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+/*footer color change*/
+
+/*dynamic form*/
+@media screen and (max-width: 770px){
+    .sheets{
+        height: 540px;
+        width: 440px;
+    }
+    .contact{
+        margin:0 auto;
+        padding-left: 5px;
+        max-width: 1000px;  
+        text-align: center;
+    }
+    .container{
+        padding-top: 0px;
+        width: 100%;
+
+    }
+    .content{
+    display: grid;
+    grid-auto-flow: row;
+    overflow-x: hidden;
+    overflow-y: auto;
+    align-items: left;
+    }
+}
+@media screen and (max-width: 500px){
+    .column{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        min-width: 300px;
+    }
+    
+}
+.column{
+    padding: 10px;
+    
+}
+.vendors{
+    min-height: 50vh;
+    padding:50px;
+    flex-direction: block;
+}
+.collapsible {
+    background-color:aliceblue;
+    color:black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+.active, .collapsible:hover {
+    background-color:white
+  }
+.content {
+    padding: 0 18px;
+    padding-top: 10px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+.col-01{
+    padding:2rem;
+    
+}
+.col-01 li{
+    color: orange;
+}
+.col-02{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+}
+.col-02 li{
+    color:orange;
+
+}
+.col-03{
+    display: inline-block;
+}
+.content{
+    background-color: aliceblue;
+}
+
