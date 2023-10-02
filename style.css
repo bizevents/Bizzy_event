@@ -169,19 +169,16 @@ footer a{
 }
 #Easter:hover{
     background-color: rgba(16, 145, 134, 0.524);
-    opacity: 0.5;
 }
 #Christmas:hover{
     background-color: rgba(16, 145, 134, 0.524);
-    opacity: 0.5;
+
 }
 #Offroad:hover{
     background-color: rgba(16, 145, 134, 0.524);
-    opacity: 0.5;
 }
 #Summer:hover{
     background-color: rgba(16, 145, 134, 0.524);
-    opacity: 0.5;
 }
 #Offroad {
     background-image: url(images/23665475.jpg);
@@ -423,7 +420,7 @@ ul li:hover ul.dropdown{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(offroadimages/LRM_EXPORT_1462291329973656_20190812_162739606.jpeg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.641), url(offroadimages/LRM_EXPORT_1462291329973656_20190812_162739606.jpeg);
     color: white;
     height: auto;
 }
