@@ -420,7 +420,7 @@ ul li:hover ul.dropdown{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.641), url(offroadimages/LRM_EXPORT_1462291329973656_20190812_162739606.jpeg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.641)), url(offroadimages/LRM_EXPORT_1462291329973656_20190812_162739606.jpeg);
     color: white;
     height: auto;
 }
