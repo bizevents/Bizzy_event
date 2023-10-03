@@ -311,7 +311,6 @@ ul li:hover ul.dropdown{
         justify-content: space-evenly;
         text-transform: uppercase;
         font-weight: bolder;
-        overflow-x: auto;
         white-space: nowrap;
         padding-left:250px ;
     }
@@ -452,7 +451,7 @@ ul li:hover ul.dropdown{
     align-items: center;
     text-transform: uppercase;
     font-weight: bolder;
-    overflow-x: auto;
+    overflow-x:;
 
    
 
