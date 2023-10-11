@@ -577,13 +577,3 @@ ul li:hover ul.dropdown-off{
 .content{
     background-color: aliceblue;
 }
-.container-contact{
-    width:100%;
-    height:100%;
-    max-width: 1200px;
-    margin: 0% auto;
-    padding-top: 40px;
-    margin-top: 20px;
-    align-content: center;
-    text-align: center;
-}
