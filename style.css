@@ -75,6 +75,7 @@ footer a{
     justify-content: space-evenly;
     text-transform: uppercase;
     font-weight: bolder;
+    overflow-y: Auto;
 }
 .nav-item {
     list-style: none;
