@@ -452,7 +452,7 @@ ul li:hover ul.dropdown{
     align-items: center;
     text-transform: uppercase;
     font-weight: bolder;
-    overflow-x:;
+    overflow-y: auto;
 
    
 
