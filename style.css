@@ -75,7 +75,7 @@ footer a{
     justify-content: space-evenly;
     text-transform: uppercase;
     font-weight: bolder;
-    overflow-x: auto;
+    overflow-y: Auto;
 }
 .nav-item {
     list-style: none;
@@ -105,8 +105,8 @@ footer a{
     height:100%;
     max-width: 1200px;
     margin: 0% auto;
-    padding-top: 20px;
-    margin-top: 20px;
+    padding-top: 40px;
+    margin-top: 40px;
     align-content: center;
     text-align: center;
 
@@ -169,19 +169,16 @@ footer a{
 }
 #Easter:hover{
     background-color: rgba(16, 145, 134, 0.524);
-    opacity: 0.5;
 }
 #Christmas:hover{
     background-color: rgba(16, 145, 134, 0.524);
-    opacity: 0.5;
+
 }
 #Offroad:hover{
     background-color: rgba(16, 145, 134, 0.524);
-    opacity: 0.5;
 }
 #Summer:hover{
     background-color: rgba(16, 145, 134, 0.524);
-    opacity: 0.5;
 }
 #Offroad {
     background-image: url(images/23665475.jpg);
@@ -240,8 +237,7 @@ ul li ul.dropdown {
 ul li:hover ul.dropdown{
     display: block;
     text-align: left;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: aliceblue;
 }
 
 
@@ -314,13 +310,13 @@ ul li:hover ul.dropdown{
         justify-content: space-evenly;
         text-transform: uppercase;
         font-weight: bolder;
-        overflow-x: auto;
         white-space: nowrap;
         padding-left:250px ;
     }
 }
 @media screen and (max-width:500px){
     .Offroad-div{
+        min-height: 40vh;
         width: 100%;
         font-family: OffroadFont;
         min-width: 300px
@@ -423,7 +419,7 @@ ul li:hover ul.dropdown{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(offroadimages/LRM_EXPORT_1462291329973656_20190812_162739606.jpeg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.641),rgba(0, 0, 0, 0.393)), url(offroadimages/LRM_EXPORT_1462291329973656_20190812_162739606.jpeg);
     color: white;
     height: auto;
 }
@@ -455,7 +451,7 @@ ul li:hover ul.dropdown{
     align-items: center;
     text-transform: uppercase;
     font-weight: bolder;
-    overflow-x: auto;
+    overflow-y: auto;
 
    
 
@@ -581,4 +577,3 @@ ul li:hover ul.dropdown-off{
 .content{
     background-color: aliceblue;
 }
-
