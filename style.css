@@ -586,7 +586,7 @@ ul li:hover ul.dropdown-off{
     padding: 40px 0;
     display: flex;
 }
-.photo-gallery{
+.photo{
     display: flex;
     gap: 20px;
 }
@@ -595,7 +595,7 @@ ul li:hover ul.dropdown-off{
     gap: 20px;
     flex-direction: column;
 }
-.photo-gallery img{
+.photo img{
     width: 50%;
     height: 50%;
     border-radius: 5px;
