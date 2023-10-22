@@ -549,6 +549,7 @@ ul li:hover ul.dropdown-off{
     background-color:white
   }
 .content {
+    list-style: none;
     padding: 0 18px;
     padding-top: 10px;
     display: none;
