@@ -594,6 +594,7 @@ ul li:hover ul.dropdown-off{
     display: flex;
     gap: 20px;
     flex-direction: column;
+    padding: 20px;
 }
 .photo img{
     width: 100%;
