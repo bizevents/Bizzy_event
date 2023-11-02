@@ -602,5 +602,17 @@ ul li:hover ul.dropdown-off{
     border-radius: 5px;
     object-fit: cover;
 }
+.row-map{
+    padding-bottom:10pc;
+    position: relative;
+}
+.row-map iframe{
+    height:100pc;
+    width:100pc:
+    border-radius:10pc;
+    position: absolute;
+    left:0;
+    right:0;
+}
     
     
