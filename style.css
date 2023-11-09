@@ -493,6 +493,7 @@ ul li:hover ul.dropdown-off{
     margin-left: -50px;
     border-radius:5%;
     padding:10px;
+    list-style:none;
 }
 /*footer color change*/
 
