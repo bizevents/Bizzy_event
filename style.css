@@ -56,8 +56,6 @@ footer a{
     display: grid;
     justify-content:space-evenly;
     padding: 40px 100px;
-    text-align: center;
-
 }
 #contact{
     font-family: BizzyFont;
@@ -112,7 +110,7 @@ footer a{
     font-family: BizzyFont;
     font-size: 40px;
     text-decoration: underline;
-    padding-top: 10px;
+    padding-top: 50px;
     text-align: center;
 }
 
