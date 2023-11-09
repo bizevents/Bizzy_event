@@ -491,7 +491,7 @@ ul li:hover ul.dropdown-off{
     text-align: center;
     border-radius: 10px;
     background-color: rgb(0, 0, 0);
-    link-style: none;
+    text-decoration: none;
     margin-left: -50px;
     border-radius:5%;
     padding:10px;
