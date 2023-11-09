@@ -422,7 +422,7 @@ ul li:hover ul.dropdown{
     background-size: cover;
     background-image:linear-gradient(rgba(0, 0, 0, 0.641),rgba(0, 0, 0, 0.393)), url(offroadimages/LRM_EXPORT_1462291329973656_20190812_162739606.jpeg);
     color: white;
-    height: auto;
+    height: 800px;
 }
 .Offroad-div{
     width: 100%;
