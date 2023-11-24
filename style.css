@@ -59,7 +59,7 @@ footer a{
     margin-left: -15px;
 }
 .row-card{
-    display: grid;
+    display:flex;
     justify-content:center;
     padding: 40px 100px;
 }
