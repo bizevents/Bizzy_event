@@ -332,15 +332,6 @@ ul li:hover ul.dropdown{
 
     }
     
-    .container-1 {
-        padding: 0rem;
-        display: flex;
-        padding: 1rem;
-        width: 100%;
-        border-top: solid 0.5mm;
-        border-bottom: solid 0.5mm;   
-    }
-    
 }
 /*Christmas 2022*/
 .Easter-3{
@@ -537,7 +528,14 @@ ul li:hover ul.dropdown-off{
         padding: 0px;
         min-width: 300px;
     }
-    
+    .container-1{
+        padding: 0rem;
+        display: flex;
+        padding: 1rem;
+        width: 100%;
+        border-top: solid 0.5mm;
+        border-bottom: solid 0.5mm;   
+    }    
 }
 .column{
     padding: 10px;
