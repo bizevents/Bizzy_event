@@ -334,11 +334,6 @@ ul li:hover ul.dropdown{
         padding-right: 20px;
         float: left;
     }
-    .row-card {
-    display: grid;
-    justify-content: center;
-    padding: 0px 10px;
-    }
 }
 /*Christmas 2022*/
 .Easter-3{
@@ -542,7 +537,12 @@ ul li:hover ul.dropdown-off{
         width: 100%;
         border-top: solid 0.5mm;
         border-bottom: solid 0.5mm;   
-    }    
+    }
+     .row-card {
+    display: grid;
+    justify-content: center;
+    padding: 0px 10px;
+    }
 }
 .column{
     padding: 10px;
