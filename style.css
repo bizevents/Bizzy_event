@@ -49,8 +49,16 @@ footer a{
 .footer .container{
     width: 100%;
 }
-
-.row{
+.row {
+    justify-content: space-evenly;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row-card{
     display: grid;
     justify-content:center;
     padding: 40px 100px;
