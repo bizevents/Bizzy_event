@@ -334,10 +334,11 @@ ul li:hover ul.dropdown{
         padding-right: 20px;
         float: left;
     }
-    .Offroad-div h3{
-
+    .row-card {
+    display: grid;
+    justify-content: center;
+    padding: 0px 10px;
     }
-    
 }
 /*Christmas 2022*/
 .Easter-3{
