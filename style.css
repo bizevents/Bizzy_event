@@ -543,6 +543,8 @@ ul li:hover ul.dropdown-off{
     justify-content: center;
     padding: 0px 10px;
     }
+    .contact-footer {
+        text-align: center;
 }
 .column{
     padding: 10px;
