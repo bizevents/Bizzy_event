@@ -23,15 +23,13 @@
 }
 #about {
     width: 100%;
-    background-color: rgba(255, 252, 252, 0.136);
-    
-    
+    background-color: rgba(255, 252, 252, 0.136);   
 }
 footer{
     background-color: aliceblue;
     padding: 1rem;
     list-style: none;
-}
+    border-top: 1px solid;}
 footer a{
     text-decoration: none;
 }
