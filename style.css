@@ -1,13 +1,9 @@
-@font-face {
-    font-family:body;
-    src: url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
-}
 * {
     padding:0;
     margin:0;
     box-sizing:border-box;
     scroll-snap-type: proximity;
-    font-family:body;
+    
    
 }
 
@@ -631,12 +627,15 @@ ul li:hover ul.dropdown-off{
     object-fit: cover;
 }
 .tickets{
-    background-color: #f44336;
+    background-color: orange;
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+.tickets a{
+    text-decoration:none;
 }
 
     
