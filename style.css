@@ -1,6 +1,6 @@
 @font-face {
     font-family:body;
-    src: 'https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap'
+    src: url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 }
 * {
     padding:0;
@@ -631,7 +631,12 @@ ul li:hover ul.dropdown-off{
     object-fit: cover;
 }
 .tickets{
-    
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
     
