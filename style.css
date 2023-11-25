@@ -633,8 +633,13 @@ ul li:hover ul.dropdown-off{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius:5%;
 }
 .tickets a{
+    text-decoration:none;
+    color:white;
+}
+.tickets a:hover{
     text-decoration:none;
 }
 
