@@ -6,6 +6,10 @@
    
 }
 @font-face {
+    font-family:body;
+    src: 'https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap'
+}
+@font-face {
     font-family: OffroadFont;
     src: url(font/If.ttf);
 }
@@ -13,6 +17,9 @@
     font-family: BizzyFont ;
     src: url(font/JoyfulJuliana.ttf);
     font-size: xx-large;
+}
+#body{
+    font-family:body;
 }
 #hero {
     width: 100%;
@@ -623,6 +630,9 @@ ul li:hover ul.dropdown-off{
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
+}
+.tickets{
+    
 }
 
     
