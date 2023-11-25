@@ -641,6 +641,7 @@ ul li:hover ul.dropdown-off{
 }
 .tickets a:hover{
     text-decoration:none;
+    color:black;
 }
 
     
