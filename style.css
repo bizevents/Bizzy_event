@@ -518,6 +518,13 @@ ul li:hover ul.dropdown-off{
 .last {
     margin-bottom: 1rem;
 }
+.row-section img{
+    border-radius: 50%;
+    
+}
+.row-section iframe{
+    border-radius: 50%;
+}
 @media screen and (max-width: 500px){
     .column{
         display: block;
