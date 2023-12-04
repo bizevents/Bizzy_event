@@ -361,6 +361,7 @@ ul li:hover ul.dropdown{
     border-radius: 10px;
 }
 .text-box{
+    width:100%;
     align-items:center;
     padding-top: 1rem;
     padding: 1rem;
