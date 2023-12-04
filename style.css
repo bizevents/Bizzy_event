@@ -649,5 +649,8 @@ ul li:hover ul.dropdown-off{
     Justify-content: space-evenly;
     display: flex;
 }
-
+.row-section h4 {
+    font-family:BizzyFont;
+    text-decoration:underline;
+}
     
