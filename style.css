@@ -519,9 +519,13 @@ ul li:hover ul.dropdown-off{
     margin-bottom: 1rem;
 }
 .row-section img{
-     
+    height: 400px;
+    width: 400px;
+    
 }
 .row-section iframe{
+    height: 400px;
+    wiidth: 400px;
 }
 @media screen and (max-width: 500px){
     .column{
@@ -576,7 +580,17 @@ ul li:hover ul.dropdown-off{
     Justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    }    
+    }
+    .row-section img{
+    min-height: 400px;
+    min-width: 400px;
+    border-radius: 30%;
+    }
+.row-section iframe{
+    height: 400px;
+    wiidth: 400px;
+    border-radius: 30%;
+    }
 }
 @media screen and (max-width:500px){
     .Offroad-div{
