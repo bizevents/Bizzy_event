@@ -358,7 +358,7 @@ ul li:hover ul.dropdown{
 }
 #imgeast{
     max-width: 620px;
-    float: left;
+    align-items: center;
     border-radius: 10px;
 }
 .text-box{
