@@ -527,7 +527,7 @@ ul li:hover ul.dropdown-off{
 .row-section iframe{
     height: 400px;
     width: 400px;
-    border-radius:20%;
+    border-radius:0%;
 }
 @media screen and (max-width: 500px){
     .column{
