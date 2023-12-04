@@ -577,18 +577,18 @@ ul li:hover ul.dropdown-off{
     align-items: left;
     }
     .row-section {
-    padding:2rem;
+    padding:0rem;
     text-align:center;
     Justify-content: space-evenly;
     display: flex;
     flex-direction: column;
     }
-    .row-section img{
+    .row-section img {
     min-height: 400px;
     min-width: 400px;
     border-radius: 30%;
     }
-.row-section iframe{
+    .row-section iframe {
     height: 400px;
     wiidth: 400px;
     border-radius: 30%;
