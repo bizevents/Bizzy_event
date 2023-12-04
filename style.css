@@ -584,13 +584,15 @@ ul li:hover ul.dropdown-off{
     flex-direction: column;
     }
     .row-section img {
-    min-height: 400px;
-    min-width: 400px;
+    min-height: 200px;
+    min-width: 200px;
+    width:100%;
     border-radius: 30%;
     }
     .row-section iframe {
-    height: 400px;
-    wiidth: 400px;
+    height: 200px;
+    width: 200px;
+    width:100%;
     border-radius: 30%;
     }
 }
