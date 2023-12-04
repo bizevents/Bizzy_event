@@ -347,8 +347,8 @@ ul li:hover ul.dropdown{
 }
 .container-1{
     padding: 1rem;
-    display: flex;
-    padding: rem;
+    display: block;
+    padding: 1rem;
 
     
 
