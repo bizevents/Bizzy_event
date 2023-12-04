@@ -647,6 +647,7 @@ ul li:hover ul.dropdown-off{
     padding:2rem;
     text-align:center;
     Justify-content: space-evenly;
+    display: flex;
 }
 
     
