@@ -643,5 +643,10 @@ ul li:hover ul.dropdown-off{
     text-decoration:none;
     color:black;
 }
+.row-section {
+    padding:2rem;
+    text-align:center;
+    Justify-content: space-evenly;
+}
 
     
