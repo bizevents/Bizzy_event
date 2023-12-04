@@ -521,7 +521,7 @@ ul li:hover ul.dropdown-off{
 .row-section img{
      height: 400px;
     width: 400px;
-    border-radius:20%
+    border-radius:0;
     padding-top:100%
     
 }
@@ -529,7 +529,6 @@ ul li:hover ul.dropdown-off{
     height: 400px;
     width: 400px;
     border-radius:20%;
-    padding-top: 100%;
 }
 @media screen and (max-width: 500px){
     .column{
