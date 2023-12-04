@@ -248,98 +248,9 @@ ul li:hover ul.dropdown{
 }
 
 
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 800px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-  .gallery {
-    width:100%;
-    flex-direction: column;
-  }
-  .footer{
-    min-width: 420px;
-    width: 100%;
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .Easter-3{
-    margin: 0%;
-    padding: 0%;
-  }
-  .gallery-div{
-    display: grid;
-    grid-auto-flow: column;
-    overflow-x: auto;
-    overscroll-behavior-inline:contain ;
-    }
- .gallery-div img{
-    min-width: 200px;
-    padding: 3px;
-    background: aliceblue;
-    margin: 2rem;
-    }
- .gallery{
-    padding: 1px;
- }
- .row-section{
-    display:block;
- }
-}
-@media screen and (max-width: 1300px){
-    .text-box{
-        margin-top: 1rem;
-        width: 100%;
-        padding-left: 0;
-      }
-      #imgeast{
-        padding: 0%;
-        width: 100%;
-    
-      }
-      .container-1{
-        display: block;
-        padding: 0;
-      }
 
-}
-@media screen and (max-width:590px){
-    .navbar{
-        max-width: 400px;
-    }
-    .nav-list{
-        background-color:aliceblue;
-        box-shadow:0px 0px 10px  color(grey);
-        margin: 0%;
-        padding: 1rem 0;
-        display: flex;
-        grid-auto-flow: row;
-        justify-content: space-evenly;
-        text-transform: uppercase;
-        font-weight: bolder;
-        white-space: nowrap;
-        padding-left:250px ;
-    }
-}
-@media screen and (max-width:500px){
-    .Offroad-div{
-        min-height: 40vh;
-        width: 100%;
-        font-family: OffroadFont;
-        min-width: 300px
-    }
-    .Offroad-div h2{
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 20px;
-        font-size: 50px;
-        padding-right: 20px;
-        float: left;
-    }
-}
+
+
 /*Christmas 2022*/
 .Easter-3{
     margin: auto;
@@ -499,57 +410,6 @@ ul li:hover ul.dropdown-off{
     padding:10px;
     list-style:none;
 }
-/*footer color change*/
-
-/*dynamic form*/
-@media screen and (max-width: 770px){
-    .sheets{
-        height: 540px;
-        width: 440px;
-    }
-    .contact{
-        margin:0 auto;
-        padding-left: 5px;
-        max-width: 1000px;  
-        text-align: center;
-    }
-    .container{
-        padding-top: 0px;
-        width: 100%;
-
-    }
-    .content{
-    display: grid;
-    grid-auto-flow: row;
-    overflow-x: hidden;
-    overflow-y: auto;
-    align-items: left;
-    }
-}
-@media screen and (max-width: 500px){
-    .column{
-        display: block;
-        margin: 0px;
-        padding: 0px;
-        min-width: 300px;
-    }
-    .container-1{
-        padding: 0rem;
-        display: flex;
-        padding: 1rem;
-        width: 100%;
-        border-top: solid 0.5mm;
-        border-bottom: solid 0.5mm;   
-    }
-     .row-card {
-    display: grid;
-    justify-content: center;
-    padding: 0px 10px;
-    }
-    .contact-footer {
-        text-align: center;
-    }
-}
 .column{
     padding: 10px;
     
@@ -649,11 +509,105 @@ ul li:hover ul.dropdown-off{
     text-align:center;
     Justify-content: space-evenly;
     display: flex;
+    flex-direction:row;
 }
 .row-section h4 {
     font-family:BizzyFont;
     text-decoration:underline;
 }
+.last {
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 500px){
+    .column{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        min-width: 300px;
+    }
+    .container-1{
+        padding: 0rem;
+        display: flex;
+        padding: 1rem;
+        width: 100%;
+        border-top: solid 0.5mm;
+        border-bottom: solid 0.5mm;   
+    }
+     .row-card {
+    display: grid;
+    justify-content: center;
+    padding: 0px 10px;
+    }
+    .contact-footer {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 770px){
+    .sheets{
+        height: 540px;
+        width: 440px;
+    }
+    .contact{
+        margin:0 auto;
+        padding-left: 5px;
+        max-width: 1000px;  
+        text-align: center;
+    }
+    .container{
+        padding-top: 0px;
+        width: 100%;
+
+    }
+    .content{
+    display: grid;
+    grid-auto-flow: row;
+    overflow-x: hidden;
+    overflow-y: auto;
+    align-items: left;
+    }
+    .row-section {
+    padding:2rem;
+    text-align:center;
+    Justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    }    
+}
+@media screen and (max-width:500px){
+    .Offroad-div{
+        min-height: 40vh;
+        width: 100%;
+        font-family: OffroadFont;
+        min-width: 300px
+    }
+    .Offroad-div h2{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        font-size: 50px;
+        padding-right: 20px;
+        float: left;
+    }
+}
+@media screen and (max-width:590px){
+    .navbar{
+        max-width: 400px;
+    }
+    .nav-list{
+        background-color:aliceblue;
+        box-shadow:0px 0px 10px  color(grey);
+        margin: 0%;
+        padding: 1rem 0;
+        display: flex;
+        grid-auto-flow: row;
+        justify-content: space-evenly;
+        text-transform: uppercase;
+        font-weight: bolder;
+        white-space: nowrap;
+        padding-left:250px ;
+    }
+}
+/* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 800px) {
   .column {
     width: 100%;
@@ -693,4 +647,21 @@ ul li:hover ul.dropdown-off{
  .row-section{
     display:block;
  }
-}    
+}
+@media screen and (max-width: 1300px){
+    .text-box{
+        margin-top: 1rem;
+        width: 100%;
+        padding-left: 0;
+      }
+      #imgeast{
+        padding: 0%;
+        width: 100%;
+    
+      }
+      .container-1{
+        display: block;
+        padding: 0;
+      }
+
+}
