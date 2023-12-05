@@ -612,6 +612,10 @@ ul li:hover ul.dropdown-off{
         padding-right: 20px;
         float: left;
     }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media screen and (max-width:590px){
     .navbar{
