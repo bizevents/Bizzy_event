@@ -551,8 +551,6 @@ ul li:hover ul.dropdown-off{
 }
 #text-container{
     max-width:800px;
-    display:flex;
-    flex-direction: row;
     
 }
 @media screen and (max-width: 500px){
@@ -624,8 +622,7 @@ ul li:hover ul.dropdown-off{
     }
     #text-container{
     max-width:800px;
-    display:flex;
-    flex-direction: column;  
+    display:grid;
     }
 }
 @media screen and (max-width:500px){
