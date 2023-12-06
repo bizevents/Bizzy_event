@@ -529,6 +529,10 @@ ul li:hover ul.dropdown-off{
     width: 400px;
     border-radius:0%;
 }
+.UniversalFont{
+    font-weight:200;
+    letter-spacing: 5px;
+    }
 @media screen and (max-width: 500px){
     .column{
         display: block;
