@@ -219,7 +219,7 @@ footer a{
 .foot-h4{
     margin-top: 24px;
     position: relative;
-    font-family:"san-serif";
+    font-family:"B;
     font-size: 24px;
 }
 .contact-footer{
@@ -314,8 +314,7 @@ ul li:hover ul.dropdown{
 }
 .gallery h4{
     font-family: BizzyFont;
-    font-size: 50px;
-    text-decoration: underline;
+    font-size: 40px;
 
 }
 .about-us{
