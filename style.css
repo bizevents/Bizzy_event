@@ -8,7 +8,10 @@
     
    
 }
-
+@font-face {
+    font-family:BodyFont;
+    src: url(font/Dosis-Medium.ttf);
+}
 @font-face {
     font-family: OffroadFont;
     src: url(font/If.ttf);
@@ -529,8 +532,9 @@ ul li:hover ul.dropdown-off{
     border-radius:0%;
 }
 .UniversalFont{
+    font-family:BodyFont;
     font-weight:200;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     }
 @media screen and (max-width: 500px){
     .column{
