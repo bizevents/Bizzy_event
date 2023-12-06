@@ -118,7 +118,8 @@ footer a{
     font-family: BizzyFont;
     font-size: 40px;
     text-decoration: underline;
-    padding-top: 50px;
+    letter-spacing: 4px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -126,14 +127,14 @@ footer a{
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
-  padding: 0 10px;
+  width: 20%;
+  padding: 0 12px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
 .row {
 
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: aliceblue;
     
 
@@ -191,7 +192,8 @@ footer a{
 .breaker{
     text-align: center;
     width:100%;
-    padding-top: 50px;
+    padding-top: 20px;
+    letter-spacing:4px;
     font-family: BizzyFont;
     font-size: 40px;
     text-decoration: underline;
@@ -199,7 +201,7 @@ footer a{
 #card-3{
     font-family: BizzyFont;
     background-color:#ffff;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-top: 100px;
     
 }
@@ -211,10 +213,10 @@ footer a{
     text-decoration: none;
 }
 .foot-h4{
-    margin-top: 25x;
+    margin-top: 24px;
     position: relative;
     font-family:"san-serif";
-    font-size: 22px;
+    font-size: 24px;
 }
 .contact-footer{
     text-align: left;
@@ -232,7 +234,6 @@ ul li ul.dropdown li {
 }
 ul li ul.dropdown {
     width:180px;
-    background: aliceblue;
     position: absolute;
     display: none;
     z-index: 999;
