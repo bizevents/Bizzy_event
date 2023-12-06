@@ -546,6 +546,7 @@ ul li:hover ul.dropdown-off{
 }
 .EventTxt{
     margin:20px;
+    padding:40px;
     background-color:aliceblue;
 }
 @media screen and (max-width: 500px){
