@@ -549,6 +549,9 @@ ul li:hover ul.dropdown-off{
     padding:40px;
     background-color:aliceblue;
 }
+.text-container{
+    
+}
 @media screen and (max-width: 500px){
     .column{
         display: block;
