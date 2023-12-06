@@ -3,6 +3,8 @@
     margin:0;
     box-sizing:border-box;
     scroll-snap-type: proximity;
+    letter-spacing: 4px;
+    font-weight: 200;
     
    
 }
