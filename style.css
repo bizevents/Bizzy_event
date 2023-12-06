@@ -536,9 +536,17 @@ ul li:hover ul.dropdown-off{
     letter-spacing: 4px;
     }
 .RowBoat{
+    display: Flex;
     margin:20px;
     height:240px;
     background-color: lavender;
+}
+.EventImg{
+    margin:20px;    
+}
+.EventText{
+    margin:20px;
+    background-color:aliceblue;
 }
 @media screen and (max-width: 500px){
     .column{
