@@ -537,8 +537,9 @@ ul li:hover ul.dropdown-off{
     letter-spacing: 4px;
     }
 .RowBoat{
-    height:200px;
-    background-color: light-grey;
+    margin:20px;
+    height:240px;
+    background-color: lavender;
 }
 @media screen and (max-width: 500px){
     .column{
