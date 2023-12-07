@@ -568,8 +568,11 @@ ul li:hover ul.dropdown-off{
     background-color: cornsilk;
 }
 .EventTxt:hover{
-    transform: scale(1);
-    transition: width 1s;
+    transform: scale(1.16);
+    transition: 1s;
+}
+.RowBoat:hover{
+    transform: scale(1.0);
 }
 @media screen and (max-width: 500px){
     .column{
