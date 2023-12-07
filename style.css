@@ -593,6 +593,9 @@ ul li:hover ul.dropdown-off{
     color: black;
     
 }
+.UniversalFont .navbar{
+     font-weight: 500;
+}
 @media screen and (max-width: 500px){
     .column{
         display: block;
