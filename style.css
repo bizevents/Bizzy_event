@@ -582,7 +582,13 @@ ul li:hover ul.dropdown-off{
     transition: 0.8s;
     border-radius: 20px;
 }
-
+.EventTxta{
+    text-decoration: none;
+}
+.EventTxta:hover{
+    text-decoration: none;
+    
+}
 @media screen and (max-width: 500px){
     .column{
         display: block;
