@@ -565,10 +565,10 @@ ul li:hover ul.dropdown-off{
     
 }
 #off-row {
-    background-color: #e6d9c3;
+    background-color: cornsilk;
 }
 #off-row .EventTxt{
-    background-color: cornsilk;
+    background-color: #e6d9c3;
 }
 .EventTxt:hover{
     transform: scale(1.16);
