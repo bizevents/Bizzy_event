@@ -572,6 +572,7 @@ ul li:hover ul.dropdown-off{
 .EventTxt:hover{
     transform: scale(1.16);
     transition: 0.8s;
+    border-radius: 0px;
 }
 .RowBoat:hover{
     transform: scale(1.16);
