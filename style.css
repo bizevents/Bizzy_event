@@ -557,6 +557,7 @@ ul li:hover ul.dropdown-off{
     background-color:lavender;
     border-radius: 20px;
     text-decoration: none;
+    color: black;
 }
 #text-container{
     max-width:800px;
@@ -584,7 +585,7 @@ ul li:hover ul.dropdown-off{
 .EventTxta{
     text-decoration: none;
 }
-.EventTxta:hover{
+.EventTxta:hover a{
     text-decoration: none;
     
 }
