@@ -557,6 +557,7 @@ ul li:hover ul.dropdown-off{
     background-color:lavender;
     border-radius: 20px;
     text-decoration: none;
+    overflow: hidden;
 }
 #text-container{
     max-width:800px;
