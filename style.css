@@ -491,9 +491,10 @@ ul li:hover ul.dropdown-off{
     object-fit: cover;
 }
 .tickets{
-    background-color: orange;
+    background-color: lightsalmon;
     color: white;
-    padding: 14px 25px;
+    margin-top: 8px;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
