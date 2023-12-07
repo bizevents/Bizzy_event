@@ -24,7 +24,7 @@
 #hero {
     width: 100%;
     min-height: 65vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.641),rgba(0, 0, 0, 0.393)), url('./images/DSC_2594\ copy.jpg' center / cover;
+    background:linear-gradient(rgba(0, 0, 0, 0.641),rgba(0, 0, 0, 0.393)), url('./images/DSC_2594\ copy.jpg') center / cover;
     color: white;
 }
 #about {
@@ -542,7 +542,7 @@ ul li:hover ul.dropdown-off{
     display: Flex;
     margin:20px;
     height:240px;
-    background-color: lavender;
+    background-color: aliceblue;
 }
 .EventImg{
     object-fit: cover;
@@ -551,7 +551,8 @@ ul li:hover ul.dropdown-off{
 .EventTxt{
     margin:20px;
     padding:40px;
-    background-color:aliceblue;
+    background-color:lavender;
+    border-radius: 20px;
 }
 #text-container{
     max-width:800px;
