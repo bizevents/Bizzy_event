@@ -558,8 +558,12 @@ ul li:hover ul.dropdown-off{
     max-width:800px;
     
 }
-#off-row{
-    background-color:#b8d8be ;
+#off-row {
+    background-color: darkgray;
+}
+#off-row .EventTxt { 
+    background-color: cornsilk;
+
 }
 @media screen and (max-width: 500px){
     .column{
