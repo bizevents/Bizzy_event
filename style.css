@@ -580,7 +580,7 @@ ul li:hover ul.dropdown-off{
     transition:0.8s;
 }
 .RowBoat:hover img{
-    transform: scale(0.9);
+    transform: scale(0.8);
     transition: 0.8s;
     border-radius: 20px;
 }
