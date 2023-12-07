@@ -569,10 +569,16 @@ ul li:hover ul.dropdown-off{
 }
 .EventTxt:hover{
     transform: scale(1.16);
-    transition: 1s;
+    transition: 0.8s;
 }
 .RowBoat:hover{
-    transform: scale(1.0);
+    transform: scale(1.16);
+    transition:0.8s;
+}
+.RowBoat:hover img{
+    transform: scale(0.9);
+    transition: 0.8s;
+    border-radius: 20px;
 }
 @media screen and (max-width: 500px){
     .column{
