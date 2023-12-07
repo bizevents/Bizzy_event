@@ -24,7 +24,7 @@
 #hero {
     width: 100%;
     min-height: 65vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.641),rgba(0, 0, 0, 0.393)), url('./images/kids.jpg')no-repeat center / cover;
+    background:linear-gradient(rgba(0, 0, 0, 0.641),rgba(0, 0, 0, 0.393)), url('./images/DSC_2594_copy.jpg')no-repeat center / cover;
     color: white;
 }
 #about {
