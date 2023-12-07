@@ -287,6 +287,7 @@ ul li:hover ul.dropdown{
     margin-left:0px;
 }
 .body-easter{
+    font-family: BodyFont;
     justify-content: center;
     align-items: center;
 }
