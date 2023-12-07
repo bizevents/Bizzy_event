@@ -567,6 +567,10 @@ ul li:hover ul.dropdown-off{
 #off-row .EventTxt{
     background-color: cornsilk;
 }
+.EventTxt:hover{
+    transform: scale(0.5);
+    transition: 2ms;
+}
 @media screen and (max-width: 500px){
     .column{
         display: block;
