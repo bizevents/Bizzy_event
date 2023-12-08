@@ -511,9 +511,18 @@ ul li:hover ul.dropdown-off{
     text-decoration:none;
     color:black;
 }
+section-col{
+    padding:12px;
+    width:350px;
+    height:auto;
+    object-fit: contain;
+}
+.section-col li{
+    padding-bottom:4px;
+}
 .row-section {
     padding:2rem;
-    text-align:center;
+    align-items:normal;
     Justify-content: space-evenly;
     display: flex;
     flex-direction:row;
@@ -753,6 +762,9 @@ ul li:hover ul.dropdown-off{
  }
  .row-section{
     display:block;
+ }
+ section-col{
+     width:auto
  }
 }
 @media screen and (max-width: 1300px){
