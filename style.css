@@ -763,7 +763,7 @@ ul li:hover ul.dropdown-off{
  .row-section{
     display:block;
  }
- section-col{
+ .section-col{
      width:auto
  }
 }
