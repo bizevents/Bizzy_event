@@ -764,7 +764,7 @@ ul li:hover ul.dropdown-off{
     display:block;
  }
  .section-col{
-     width:auto
+     width:auto;
  }
 }
 @media screen and (max-width: 1300px){
