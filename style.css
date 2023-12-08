@@ -511,7 +511,7 @@ ul li:hover ul.dropdown-off{
     text-decoration:none;
     color:black;
 }
-section-col{
+.section-col{
     padding:12px;
     width:350px;
     height:auto;
