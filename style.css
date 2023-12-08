@@ -67,7 +67,7 @@ footer a{
 }
 .row-card{
     display:flex;
-    justify-content:center;
+    justify-content:space-evenly;
     padding: 40px 100px;
 }
 #contact{
@@ -414,6 +414,8 @@ ul li:hover ul.dropdown-off{
     list-style:none;
 }
 .column{
+    width:400px;
+    min-width:150px;
     padding: 10px;
     
 }
@@ -705,6 +707,10 @@ ul li:hover ul.dropdown-off{
         font-weight: bolder;
         white-space: nowrap;
         padding-left:250px ;
+    }
+    .row-card{
+        display:flex;
+        flex-direction:column;
     }
 }
 /* Responsive columns - one column layout (vertical) on small screens */
