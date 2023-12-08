@@ -508,7 +508,7 @@ ul li:hover ul.dropdown-off{
     color:white;
 }
 .tickets a:hover{
-    transform:scale(1.2)
+    transform:scale(1.2);
     transition: 0.8s;
     text-decoration:none;
     color:black;
