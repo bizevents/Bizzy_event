@@ -541,6 +541,16 @@ ul li:hover ul.dropdown-off{
     border-radius:0;
     
 }
+.row-section img:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+    transition: 0.8s;
+}
+.row-section iframe:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+    transition: 0.8s;
+}
 .row-section iframe{
     height: 400px;
     width: 400px;
