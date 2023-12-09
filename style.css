@@ -511,9 +511,7 @@ ul li:hover ul.dropdown-off{
     text-decoration:none;
     color:white;
 }
-.tickets :hover a{
-    transform: scale(1.2);
-    transition: 0.8s;
+.tickets:hover a{
     text-decoration: none;
     color: black;
 }
@@ -616,7 +614,7 @@ ul li:hover ul.dropdown-off{
     transition: 0.8s;
     border-radius: 20px;
 }
-.Rowboat:hover a{
+.Rowboat a:hover{
     text-decoration:none;
 }
 .EventTxta{
