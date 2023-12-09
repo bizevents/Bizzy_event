@@ -507,7 +507,7 @@ ul li:hover ul.dropdown-off{
     text-decoration:none;
     color:white;
 }
-.tickets a:hover{
+.tickets :hover a{
     transform:scale(1.2);
     transition: 0.8s;
     text-decoration:none;
@@ -604,7 +604,7 @@ ul li:hover ul.dropdown-off{
     border-radius: 0px;
 }
 .RowBoat:hover{
-    transform: scale(1.16);
+    transform: scale(1.18);
     transition:0.8s;
 }
 .RowBoat:hover img{
