@@ -572,6 +572,8 @@ ul li:hover ul.dropdown-off{
     height:240px;
     background-color: aliceblue;
     overflow-y:auto;
+    border: solid 1px;
+    border-color: cornflowerblue;
 }
 .EventImg{
     object-fit: cover;
@@ -591,6 +593,7 @@ ul li:hover ul.dropdown-off{
 }
 #off-row {
     background-color: cornsilk;
+    border-color: darkgoldenrod;
 }
 #off-row .EventTxt{
     background-color: #e6d9c3;
