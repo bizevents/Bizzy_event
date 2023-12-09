@@ -9,6 +9,10 @@
    
 }
 @font-face {
+    font-family:Nav-bold;
+    src: url(font/Quicksand_Bold.otf);
+}
+@font-face {
     font-family:BodyFont;
     src: url(font/Quicksand_Book.otf);
 }
@@ -624,8 +628,8 @@ ul li:hover ul.dropdown-off{
     color: black;
     
 }
-.UniversalFont .navbar{
-     font-weight: 500;
+.Nav-font{
+    font-family:Nav-bold;
 }
 @media screen and (max-width: 500px){
     .column{
