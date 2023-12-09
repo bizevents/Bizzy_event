@@ -612,6 +612,9 @@ ul li:hover ul.dropdown-off{
     transition: 0.8s;
     border-radius: 20px;
 }
+.Rowboat:hover a{
+    text-decoration:none;
+}
 .EventTxta{
     text-decoration: none;
     color: black;
