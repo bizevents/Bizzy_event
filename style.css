@@ -242,7 +242,7 @@ ul li ul.dropdown li {
     align-items: left;
 }
 ul li ul.dropdown {
-    width:180px;
+    width:300px;
     position: absolute;
     display: none;
     z-index: 999;
@@ -250,9 +250,9 @@ ul li ul.dropdown {
 }
 ul li:hover ul.dropdown{
     display: block;
-    text-align: center;
+    text-align: left;
     background-color: white;
-    margin-left: -50px;
+    margin-left: -12px;
     border-radius:5%;
     padding:10px;
 }
