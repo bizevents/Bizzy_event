@@ -721,8 +721,7 @@ ul li:hover ul.dropdown-off{
         display: flex;
         flex-direction: column;
     }
-    .rowbtns{
-        justify-content:unset;
+   
 }
 @media screen and (max-width:590px){
     .navbar{
@@ -806,6 +805,11 @@ ul li:hover ul.dropdown-off{
         padding: 0;
       }
 
+}
+@media screen and (max-width: 1200px){
+    .rowbtns{
+        justify-content:unset;
+    }
 }
 .row-btns{
     align-items:center;
