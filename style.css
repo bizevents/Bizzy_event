@@ -806,10 +806,13 @@ ul li:hover ul.dropdown-off{
 
 }
 .row-btns{
-    display: inline-flex;
+    align-items:center;
+    display: flex;
     justify-content: space-evenly;
+    padding:20px;
 }
 .listbtn{
     width: 100px;
     height: Auto;
+    border-radius: 10px;
 }
