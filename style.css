@@ -805,3 +805,10 @@ ul li:hover ul.dropdown-off{
       }
 
 }
+.row-btns{
+    display: inline-flex;
+}
+.listbtns{
+    width: 100px;
+    height: Auto;
+}
