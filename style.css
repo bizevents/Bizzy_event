@@ -806,15 +806,10 @@ ul li:hover ul.dropdown-off{
       }
 
 }
-@media screen and (max-width: 1200px){
-    .row-btns{
-        justify-content:unset;
-    }
-}
 .row-btns{
     align-items:center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding:20px;
     overflow-y:auto;
 }
