@@ -807,8 +807,9 @@ ul li:hover ul.dropdown-off{
 }
 .row-btns{
     display: inline-flex;
+    justify-content: space-evenly;
 }
-.listbtns{
+.listbtn{
     width: 100px;
     height: Auto;
 }
