@@ -812,7 +812,10 @@ ul li:hover ul.dropdown-off{
     padding:20px;
 }
 .listbtn{
-    width: 100px;
-    height: Auto;
+    width: 150px;
+    height: 75px;
     border-radius: 10px;
+}
+.vendorbtn h4{
+    align-items:center;
 }
