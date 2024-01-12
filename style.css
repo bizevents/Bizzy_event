@@ -807,7 +807,7 @@ ul li:hover ul.dropdown-off{
 
 }
 @media screen and (max-width: 1200px){
-    .rowbtns{
+    .row-btns{
         justify-content:unset;
     }
 }
@@ -823,6 +823,7 @@ ul li:hover ul.dropdown-off{
     max-width: 150px;
     height: 75px;
     border-radius: 10px;
+    margin:10px;
 }
 .vendorbtn h4{
     text-align:center;
