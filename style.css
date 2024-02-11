@@ -833,7 +833,7 @@ ul li:hover ul.dropdown-off{
     transform: scale(1.2);
     background-color: lightsalmon;
     color:white;
-    border-color: aliceblue;
+    border-color: black;
     transition: 0.5s;
 }
 .vendorbtn h4{
@@ -844,4 +844,9 @@ ul li:hover ul.dropdown-off{
     font-family: BizzyFont;
     font-weight: 800;
     text-decoration: underline;
+}
+#hidden{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
 }
