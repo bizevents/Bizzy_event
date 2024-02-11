@@ -290,7 +290,9 @@ ul li:hover ul.dropdown{
     padding: 1rem;
     color:black;
     background-color: aliceblue;
-    margin-left:0px;
+    border: solid 2px;
+    border-radius: 20px;
+    border-color:wheat;
 }
 .body-easter{
     font-family: BodyFont;
@@ -794,7 +796,6 @@ ul li:hover ul.dropdown-off{
     .text-box{
         margin-top: 1rem;
         width: 100%;
-        padding-left: 0;
       }
       #imgeast{
         padding: 0%;
@@ -822,6 +823,7 @@ ul li:hover ul.dropdown-off{
     max-width: 150px;
     height: 75px;
     border-radius: 10px;
+    border-color: wheat;
     margin:10px;
     background-color: aliceblue;
 }
