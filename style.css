@@ -541,8 +541,8 @@ ul li:hover ul.dropdown-off{
     margin-bottom: 1rem;
 }
 .row-section img{
-     height: 400px;
-    width: 400px;
+     height: 350px;
+    width: 350px;
     border-radius:0;
     
 }
@@ -557,8 +557,8 @@ ul li:hover ul.dropdown-off{
     transition: 0.8s;
 }
 .row-section iframe{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     border-radius:0%;
 }
 .UniversalFont{
@@ -823,6 +823,7 @@ ul li:hover ul.dropdown-off{
     height: 75px;
     border-radius: 10px;
     margin:10px;
+    background-color: aliceblue;
 }
 .vendorbtn h4{
     text-align:center;
