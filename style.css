@@ -867,19 +867,19 @@ ul li:hover ul.dropdown-off{
     background-color: rgba(0, 0, 0, 0.5);
 }
 .modal-content {
-    display: ;
-    background-color: white;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    text-align: center;
+    max-width: 70%;
+    max-height: 80vh;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 0%;
+    justify-content: center;
+    align-items: center;
 }
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+    position: absolute;
+    top: 8px; /* Adjust as needed */
+    right: 8px; /* Adjust as needed */
+    z-index: 1;
 }
 
 .close:hover,
@@ -888,6 +888,11 @@ ul li:hover ul.dropdown-off{
     text-decoration: none;
     cursor: pointer;
 }
-#openModal {
-    width: 70%
+div#modalContent {
+    overflow-y: auto;
+    text-align: left;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 10px;
 }
