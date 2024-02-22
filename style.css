@@ -835,9 +835,7 @@ ul li:hover ul.dropdown-off{
     background-color: aliceblue;
 }
 .listbtn:hover{
-    transform: scale(1.2);
-    background-color: lightsalmon;
-    color:white;
+    transform: scale(1.1);
     border-color: black;
     transition: 0.5s;
 }
@@ -858,7 +856,7 @@ ul li:hover ul.dropdown-off{
     left: -9999px;
 }
 .modal {
-
+    display: none;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -867,6 +865,14 @@ ul li:hover ul.dropdown-off{
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    text-align: center;
 }
 .close {
     color: #aaa;
