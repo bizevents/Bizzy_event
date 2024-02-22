@@ -867,6 +867,7 @@ ul li:hover ul.dropdown-off{
     background-color: rgba(0, 0, 0, 0.5);
 }
 .modal-content {
+    display: ;
     background-color: white;
     margin: 15% auto;
     padding: 20px;
