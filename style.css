@@ -4,8 +4,7 @@
     box-sizing:border-box;
     scroll-snap-type: proximity;
     letter-spacing: 4px;
-    font-weight: 200;
-    
+     font-weight: 200;
    
 }
 @font-face {
@@ -25,6 +24,12 @@
     src: url(font/JoyfulJuliana.ttf);
     font-size: xx-large;
 }
+.body{
+    background: url(images/background-5574027.png);
+    background-attachment: fixed;
+    background-size:cover;
+
+}
 #hero {
     width: 100%;
     min-height: 65vh;
@@ -33,12 +38,13 @@
 }
 #about {
     width: 100%;
-    background-color: rgba(255, 252, 252, 0.136);   
+      
 }
 footer{
-    background-color: aliceblue;
-    padding: 1rem;
+    background-color:whitesmoke;
+    padding: rem;
     list-style: none;
+    border-top: solid 1px wheat;
 }
 footer a{
     text-decoration: none;
@@ -81,8 +87,8 @@ footer a{
 }
 .nav-list{
     width: 100%;
-    background-color:aliceblue;
-    box-shadow:0px 0px 10px  color(grey);
+    background-color:whitesmoke;
+    box-shadow:0px 0px 10px  color(rgb(255, 255, 255));
     margin: 0%;
     padding: 1rem 0;
     display: flex;
@@ -90,6 +96,7 @@ footer a{
     text-transform: uppercase;
     font-weight: bolder;
     overflow-y: Auto;
+    border-bottom: wheat 1px solid;
 }
 .nav-item {
     list-style: none;
@@ -130,8 +137,8 @@ footer a{
     letter-spacing: 4px;
     padding-top: 20px;
     text-align: center;
+    ;
 }
-
 
 /* Float four columns side by side */
 .column {
@@ -144,9 +151,8 @@ footer a{
 /* Remove extra left and right margins, due to padding in columns */
 .row {
 
-    padding-top: 20px;
-    background-color: aliceblue;
-    
+    background-color: whitesmoke;
+      
 
 }
 
@@ -290,12 +296,15 @@ ul li:hover ul.dropdown{
     padding-top: 1rem;
     padding: 1rem;
     color:black;
-    background-color: aliceblue;
+    background-color: white;
     border: solid 2px;
     border-radius: 20px;
     border-color:wheat;
+    font:bolder;
 }
 .body-easter{
+    background: url(images/17225018_v996-005.jpg) center/cover;
+    background-attachment: fixed;
     font-family: BodyFont;
     justify-content: center;
     align-items: center;
@@ -520,13 +529,10 @@ ul li:hover ul.dropdown-off{
     color: black;
 }
 .section-col{
-    padding:12px;
-    width:auto;
-    height:auto;
+    max-width: 500px;
     object-fit: contain;
-}
-.section-col li{
-    padding-bottom: 4px;
+    background-color:whitesmoke;
+    padding: 10px;
 }
 .row-section {
     padding:1rem;
@@ -576,8 +582,7 @@ ul li:hover ul.dropdown-off{
     margin-top:40px;
     margin-bottom: 40px;
     height:240px;
-    background-color: aliceblue;
-    overflow-y:auto;
+    background-color: white;
     border: solid 1px;
     border-color: cornflowerblue;
 }
@@ -625,9 +630,8 @@ ul li:hover ul.dropdown-off{
     text-decoration: none;
     color: black;
 }
-.EventTxta a:hover{
+a.EventTxta :hover{
     text-decoration: none;
-    color: red;
     
 }
 .Nav-font{
@@ -832,7 +836,7 @@ ul li:hover ul.dropdown-off{
     border-radius: 10px;
     border-color: wheat;
     margin:10px;
-    background-color: aliceblue;
+    background-color: white;
 }
 .listbtn:hover{
     transform: scale(1.1);
@@ -844,11 +848,13 @@ ul li:hover ul.dropdown-off{
     font-weight: 800;
 }
 .container h4{
-    padding-top:10px;
-    padding-bottom: 10px;
-    font-family: BizzyFont;
-    font-weight: 800;
-    text-decoration: underline;
+    padding:20px;
+    background: white;
+    border: solid wheat 1px;
+    border-radius: 10px;
+}
+.container h3{
+    text-decoration: underline 1px;
 }
 #hidden{
     position: absolute;
@@ -874,6 +880,7 @@ ul li:hover ul.dropdown-off{
     margin-right: 0%;
     justify-content: center;
     align-items: center;
+    background-color: whitesmoke;
 }
 .close {
     position: absolute;
@@ -893,6 +900,6 @@ div#modalContent {
     text-align: left;
     margin: 20px;
     border-radius: 20px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     padding: 10px;
 }
