@@ -907,10 +907,6 @@ div#modalContent {
     width: 500px;
     padding: 10px;
     height: 700px;
-    border-bottom: 2px solid;
-}
-#imgeaster :hover{
-    transform: scale3d(1.2);
 }
 .container-easter{
     display: flex;
@@ -934,7 +930,7 @@ div#modalContent {
     padding: 1.5rem;
     border-bottom: 2px solid;
     padding: padding-box;
-    width: 500px;
+    width: 450px;
     height: 300px;
     margin: 10px;
 }
@@ -944,12 +940,11 @@ div#modalContent {
 .outer p{
     font-weight: 900;
 }
+.outer h5{
+    font-weight: 900;
+}
 .text-box3 iframe{
     width: 100%;
-}
-#maps{
-    height: 300px;
-    margin-bottom: 0;
 }
 #first-outer{
     border-right: 2px solid;
