@@ -904,9 +904,10 @@ div#modalContent {
     padding: 10px;
 }
 #imgeaster{
-    max-width: 500px;
-    padding: 5px;
-    max-height: 700px;
+    width: 500px;
+    padding: 10px;
+    height: 700px;
+    border-bottom: 2px solid;
 }
 #imgeaster :hover{
     transform: scale3d(1.2);
@@ -916,7 +917,6 @@ div#modalContent {
     justify-content: center;
     padding-left: 15%;
     padding-right: 15%;
-    text-align: center;
     font-weight: 1000;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -929,14 +929,14 @@ div#modalContent {
     text-decoration:dashed;
 }
 .text-box3{
+    justify-content: center;
     text-align: left;
     padding: 1.5rem;
-    border: solid 2px;
+    border-bottom: 2px solid;
     padding: padding-box;
-    max-width: 500px;
-    max-height: 300px;
-    margin: 5px;
-    margin-bottom: 40px;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
 }
 .outer{
     display: block;
@@ -946,9 +946,11 @@ div#modalContent {
 }
 .text-box3 iframe{
     width: 100%;
-    height:80%;
 }
 #maps{
-    height: 400px;
+    height: 300px;
     margin-bottom: 0;
+}
+#first-outer{
+    border-right: 2px solid;
 }
