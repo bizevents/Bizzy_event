@@ -949,3 +949,7 @@ div#modalContent {
 #first-outer{
     border-right: 2px solid;
 }
+.outer h3{
+    text-align: center;
+    font-weight: 900;
+}
