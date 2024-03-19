@@ -303,7 +303,7 @@ ul li:hover ul.dropdown{
     font:bolder;
 }
 .body-easter{
-    background: url(images/17225018_v996-005.jpg) center/cover;
+    background: url(images/17225018_v996-005.jpg);
     background-attachment: fixed;
     font-family: BodyFont;
     justify-content: center;
@@ -906,6 +906,10 @@ div#modalContent {
 #imgeaster{
     max-width: 500px;
     padding: 5px;
+    max-height: 700px;
+}
+#imgeaster :hover{
+    transform: scale3d(1.2);
 }
 .container-easter{
     display: flex;
@@ -915,6 +919,7 @@ div#modalContent {
     text-align: center;
     font-weight: 1000;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 .text-box1{
     text-align: center;
@@ -922,4 +927,28 @@ div#modalContent {
     padding: 10px;
     font-weight: 1000;
     text-decoration:dashed;
+}
+.text-box3{
+    text-align: left;
+    padding: 1.5rem;
+    border: solid 2px;
+    padding: padding-box;
+    max-width: 500px;
+    max-height: 300px;
+    margin: 5px;
+    margin-bottom: 40px;
+}
+.outer{
+    display: block;
+}
+.outer p{
+    font-weight: 900;
+}
+.text-box3 iframe{
+    width: 100%;
+    height:80%;
+}
+#maps{
+    height: 400px;
+    margin-bottom: 0;
 }
