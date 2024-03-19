@@ -927,7 +927,7 @@ div#modalContent {
 .text-box3{
     justify-content: center;
     text-align: left;
-    padding: 1.5rem;
+    padding: 1rem;
     border-bottom: 2px solid;
     padding: padding-box;
     width: 450px;
@@ -952,4 +952,5 @@ div#modalContent {
 .outer h3{
     text-align: center;
     font-weight: 900;
+    color: orange;
 }
