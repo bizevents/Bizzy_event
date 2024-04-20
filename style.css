@@ -1109,3 +1109,11 @@ div#modalContent {
   .privacyPolicy p {
     font-size: 0.75rem !important;
   }
+  .text-container {
+    font-family: BodyFont;
+    background: white;
+    max-width: fit-content;
+    display: -webkit-inline-box;
+    border-radius: 10px;
+    padding: 20px;
+  }
