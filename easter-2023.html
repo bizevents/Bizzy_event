@@ -36,25 +36,30 @@
         <div class="container-easter">
           <div class="outer" id="first-outer">
             <img src="images/Biz Baz April.jpeg" id="imgeaster">
-            <h3>FEES</h3>
-            <div class="text-box3">
-              <h5>
-                Adults - 500
-                <br>
-                Kids - 200
-                <br>
-                Advance tickets:
-                <br>
-                <h6 class="tickets"><a href="https://kenyabuzz.com/events/event/bizarre-bazaar-festival-april-edition">Buy here</a></h6>
-              </h5>
-            </div>
-            <h3>LOCATION</h3>
+            <h3>VENDORS</h3>
             <div class="text-box3" id="maps">
-              <h5>
-                @KSTVET on UN Avenue, Gigiri.
-              </h5>
-              <br>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.884366548659!2d36.81235307673467!3d-1.2397446355806916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17ba112bd817%3A0x43971c8d371d37fb!2sKenya%20Technical%20Trainers%20College%20(KTTC!5e0!3m2!1sen!2ske!4v1701685307019!5m2!1sen!2ske"></iframe>
+              <div class="row-btns">
+                <button onclick="openModal('Family_and_Kids')" class="listbtn">Family & kids </button>
+                <button onclick="openModal('Art_and_crafts')" class="listbtn">Arts & crafts</button>
+                <button onclick="openModal('clothing_and_Accessories')" class="listbtn">clothing & Accessories</button>
+            </div>
+            <div class="row-btns">
+                <button onclick="openModal('inside_and_Outside')" class="listbtn">Inside & Outside</button>
+                <button onclick="openModal('Food_and_beverages')" class="listbtn">Food & beverages</button>
+                <button onclick="openModal('Institutions_and_services')"class="listbtn">Institutions and Services</button>
+            </div>
+            <div class="row-btns">
+              <button onclick="openModal('Body_products')" class="listbtn">Body products</button>
+              
+            </div>
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div id="modalContent">
+                </div>
+                <button onclick="closeModal()">Close</button>
+              </div>
+            </div>
             </div>
           </div>
           <div class="outer">
@@ -148,7 +153,7 @@
     </section>    
     <footer>
         <div class="container1">
-          <div class="row">
+          <div class="row-foot">
             <div class="footer-col">
               <h4 class="foot-h4">Socials</h4>
               <ul>

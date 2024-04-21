@@ -40,10 +40,11 @@
       
 }
 footer{
-    background-color:whitesmoke;
+    background-color:white;
     padding: rem;
     list-style: none;
     border-top: solid 1px wheat;
+    font-family: BodyFont;
 }
 footer a{
     text-decoration: none;
@@ -73,6 +74,11 @@ footer a{
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+}
+.row-foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 .row-card{
     display:flex;
@@ -148,12 +154,7 @@ footer a{
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.row {
 
-    background-color: whitesmoke;
-      
-
-}
 
 /* Clear floats after the columns */
 .row:after {
@@ -230,8 +231,8 @@ footer a{
 .foot-h4{
     margin-top: 24px;
     position: relative;
-    font-family:"BodyFont";
-    font-size: 24px;
+    font-weight: bold;
+    color: orange;
 }
 .contact-footer{
     text-align: left;
@@ -246,6 +247,10 @@ ul li ul.dropdown li {
     display: block;
     width: 100%;
     align-items: left;
+}
+ul li ul.dropdown li:hover{
+    background: lightgray;
+    color: wheat;
 }
 ul li ul.dropdown {
     width:300px;
@@ -820,13 +825,12 @@ a.EventTxta :hover{
     max-width: 150px;
     height: 75px;
     border-radius: 10px;
-    border-color: wheat;
     margin:10px;
     background-color: white;
 }
 .listbtn:hover{
-    transform: scale(1.1);
-    border-color: black;
+    transform: scale(1.2);
+    border-color: orange;
     transition: 0.5s;
 }
 .vendorbtn h4{
