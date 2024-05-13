@@ -672,8 +672,8 @@ a.EventTxta :hover{
         text-align: center;
     }
     #aboutus {
-        max-height: 300px;
-        text-overflow: hidden;
+        max-height: fit-content
+        font-size: large;
     }
 }
 @media screen and (max-width: 770px){
@@ -1141,6 +1141,7 @@ div#modalContent {
     padding: 20px;
   }
 #aboutus{
+    font-family: 'BodyFont';
     display: inline-block;
     max-width: 780px;
 
