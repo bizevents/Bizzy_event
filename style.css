@@ -27,7 +27,7 @@
     background: url(images/17225018_v996-005.jpg);
     background-attachment: fixed;
     max-width: 100%;
-
+    
 }
 #hero {
     width: 100%;
@@ -652,6 +652,9 @@ a.EventTxta :hover{
         padding: 0px;
         min-width: 300px;
     }
+    .row-foot{
+        display: block;
+    }
     .container-1{
         padding: 0rem;
         display: flex;
@@ -715,6 +718,14 @@ a.EventTxta :hover{
     #text-container{
     max-width:800px;
     display:grid;
+    }
+    .EventImg{
+        visibility: hidden;
+    }
+    .RowBoat{
+        max-width: 335px;
+        justify-self: center;
+        overflow-x: hidden;
     }
 }
 @media screen and (max-width:500px){
